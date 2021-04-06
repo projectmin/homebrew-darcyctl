@@ -5,16 +5,16 @@
 class Darcyctl < Formula
   desc "CLI for Darcy"
   homepage "https://meetdarcy.com"
-  version "0.8.8"
+  version "0.10.1"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/projectmin/homebrew-darcyctl/releases/download/v0.8.8/darcyctl-macos-amd64.tar.gz"
-    sha256 "0d9aaf5430f07f2b4a3ade94f096453253bd73413d1a5878138385d3058542ca"
+    url "https://github.com/projectmin/homebrew-darcyctl/releases/download/v0.10.1/darcyctl-macos-amd64.tar.gz"
+    sha256 "15801e79dfe98bea7cc90a66c18924e3ad43ed72b6dbd01c6debc34297d20b9e"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/projectmin/homebrew-darcyctl/releases/download/v0.8.8/darcyctl-linux-amd64.tar.gz"
-    sha256 "f9590e8722ea634d9e395e822b5d1c49420b3b1228aadd27cfca7051f092ada1"
+    url "https://github.com/projectmin/homebrew-darcyctl/releases/download/v0.10.1/darcyctl-linux-amd64.tar.gz"
+    sha256 "d18002dee10e5c98820e0b0c4aa7d6786d56333d424ddefca10f17c8ee4c9de8"
   end
 
   def install
